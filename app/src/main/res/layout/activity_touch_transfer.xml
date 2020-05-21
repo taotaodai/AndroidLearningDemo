@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/cb_intercept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拦截"
+                android:layout_marginRight="8dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_consume_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View消耗事件"
+                android:layout_marginRight="8dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_consume_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ViewGroup消耗事件"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.ttd.androidlearning.custom_view.TouchTransferVG1
+        android:id="@+id/vg_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/purple_100"
+        android:layout_gravity="center">
+
+        <com.ttd.androidlearning.custom_view.TouchTransferView1
+            android:id="@+id/v_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="View"
+            android:gravity="center"
+            android:background="@color/teal_100"/>
+    </com.ttd.androidlearning.custom_view.TouchTransferVG1>
+</FrameLayout>

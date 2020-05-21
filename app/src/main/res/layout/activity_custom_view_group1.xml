@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.ttd.androidlearning.custom_view.CustomViewGroup1
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@color/brown_100">
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="2dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="2dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <com.ttd.androidlearning.custom_view.CustomView1
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/red_300"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/yellow_300"
+            android:layout_marginLeft="8dp"/>
+    </com.ttd.androidlearning.custom_view.CustomViewGroup1>
+</LinearLayout>
