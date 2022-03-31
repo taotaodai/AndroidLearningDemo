@@ -1,4 +1,4 @@
-package com.ttd.androidlearning.custom_view;
+package com.ttd.androidlearning.custom_view.impl;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,8 +12,8 @@ import android.view.ViewGroup;
  * 1.重写{@link #onLayout(boolean, int, int, int, int)} 为childView设定其在ViewGroup中的位置。
  * 2.重写{@link #onMeasure(int, int)} 根据父ViewGroup为其设定的测量规格来测量自己的宽和高，以及给childView传递测量规格和测量它的childView的宽和高。
  */
-public class CustomViewGroup1 extends ViewGroup {
-    public CustomViewGroup1(Context context, AttributeSet attrs) {
+public class MyFlowLayout extends ViewGroup {
+    public MyFlowLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

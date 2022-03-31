@@ -2,6 +2,7 @@ package com.ttd.androidlearning;
 
 import com.ttd.androidlearning.animations.PropertyAnimationActivity;
 import com.ttd.androidlearning.animations.ViewAnimationsActivity;
+import com.ttd.androidlearning.custom_view.BezierActivity;
 import com.ttd.androidlearning.custom_view.CustomViewActivity1;
 import com.ttd.androidlearning.custom_view.CustomViewGroupActivity1;
 import com.ttd.androidlearning.custom_view.TouchTransferActivity;
@@ -20,10 +21,11 @@ public enum PageItem {
     VIEW_MEASURE("View 的大小测量", CustomViewActivity1.class),
     VIEW_GROUP1("自定义ViewGroup", CustomViewGroupActivity1.class),
     TOUCH_TRANSFER("Touch事件分发", TouchTransferActivity.class),
+    BEZIER("贝塞尔曲线", BezierActivity.class),
 
     ANIMATIONS("动画", Arrays.asList(VIEW_ANIMATIONS, PROPERTY_ANIMATION)),
 
-    CUSTOM_VIEW("自定义View", Arrays.asList(VIEW_MEASURE, VIEW_GROUP1,TOUCH_TRANSFER));
+    CUSTOM_VIEW("自定义View", Arrays.asList(VIEW_MEASURE, VIEW_GROUP1, TOUCH_TRANSFER, BEZIER));
 
     String title;
     Class mClass;

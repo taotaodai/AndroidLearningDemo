@@ -22,5 +22,6 @@
         <activity android:name=".custom_view.CustomViewActivity1"/>
         <activity android:name=".custom_view.CustomViewGroupActivity1"/>
         <activity android:name=".custom_view.TouchTransferActivity"/>
+        <activity android:name=".custom_view.BezierActivity"/>
     </application>
 </manifest>

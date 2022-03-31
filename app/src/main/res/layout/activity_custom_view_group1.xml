@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.ttd.androidlearning.custom_view.CustomViewGroup1
+    <com.ttd.androidlearning.custom_view.impl.MyFlowLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="4dp"
@@ -82,5 +82,5 @@
             android:layout_height="40dp"
             android:background="@color/yellow_300"
             android:layout_marginLeft="8dp"/>
-    </com.ttd.androidlearning.custom_view.CustomViewGroup1>
+    </com.ttd.androidlearning.custom_view.impl.MyFlowLayout>
 </LinearLayout>
